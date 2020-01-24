@@ -1,0 +1,55 @@
+.mi-nav {
+    z-index: 100;
+    background-color: transparent !important;
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.5s;
+
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    #navbarNav ul {
+        height: 100vh;
+
+        & li:hover {
+            background-color: rgba(32, 32, 32, 0.034);
+        }
+    }
+
+    & button {
+        @include botonNavbar;
+    }
+}
+
+/* .color {
+    background-color: $uno !important;
+} */
+
+.color.col-marketing {
+    background-color: $uno !important;
+}
+
+.color.col-gameStore {
+    background-color: $dos !important;
+}
+
+.color.col-bancoCibertec {
+    background-color: $tres !important;
+}
+
+.color.col-graffiti {
+    background-color: $cuatro !important;
+}
+
+.transparente {
+    background-color: transparent !important;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0rem !important;
+}
+
+.navbar {
+    padding: 0.5rem 15px !important;
+}

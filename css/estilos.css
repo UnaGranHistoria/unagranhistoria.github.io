@@ -1,0 +1,595 @@
+/* Colores */
+/* Marketing colores */
+/* gameStore colores */
+/* Banco Cibertec colores */
+/* Imagenes proyectos */
+/* Boton line */
+.btn-line {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  color: #fafafa;
+  z-index: 100; }
+  .btn-line:hover {
+    color: #fafafa;
+    background-color: rgba(255, 255, 255, 0.178); }
+  .btn-line:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none; }
+  .btn-line::after, .btn-line::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    border: 2px solid;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    border-radius: 2px; }
+  .btn-line::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #fafafa;
+    border-right-color: #fafafa; }
+  .btn-line::before {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #fafafa;
+    border-left-color: #fafafa; }
+  .btn-line:hover::after, .btn-line:hover::before {
+    width: 100%;
+    height: 100%; }
+
+.mi-nav {
+  z-index: 100;
+  background-color: transparent !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  .mi-nav .navbar-brand {
+    padding-left: 15px; }
+  .mi-nav #navbarNav ul {
+    height: 100vh; }
+    .mi-nav #navbarNav ul li:hover {
+      background-color: rgba(32, 32, 32, 0.034); }
+  .mi-nav button {
+    border: none; }
+    .mi-nav button:focus {
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none; }
+
+/* .color {
+    background-color: $uno !important;
+} */
+.color.col-marketing {
+  background-color: #FF9100 !important; }
+
+.color.col-gameStore {
+  background-color: #ff1744 !important; }
+
+.color.col-bancoCibertec {
+  background-color: #00d4a3 !important; }
+
+.color.col-graffiti {
+  background-color: #5000ff !important; }
+
+.transparente {
+  background-color: transparent !important; }
+
+.navbar-toggler {
+  padding: 0.25rem 0rem !important; }
+
+.navbar {
+  padding: 0.5rem 15px !important; }
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f1f1;
+  position: absolute;
+  z-index: 1001;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3))), url("../img/fondo.png");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png"); }
+  .loading div b {
+    font-size: 0.8rem;
+    text-transform: uppercase; }
+
+.hiden {
+  height: 0vh;
+  -webkit-transition-duration: 600ms;
+  -o-transition-duration: 600ms;
+  transition-duration: 600ms; }
+
+.sk-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotateZ(45deg); }
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%; }
+
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  -ms-transform: scale(1.1) rotate(90deg);
+  transform: scale(1.1) rotateZ(90deg); }
+
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  -ms-transform: scale(1.1) rotate(180deg);
+  transform: scale(1.1) rotateZ(180deg); }
+
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  -ms-transform: scale(1.1) rotate(270deg);
+  transform: scale(1.1) rotateZ(270deg); }
+
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s; }
+
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; }
+  25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1; }
+  90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0; } }
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; }
+  25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1; }
+  90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0; } }
+
+body {
+  background-color: #000000;
+  height: auto;
+  overflow-x: hidden; }
+
+.l-uno {
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/marketing/marketing.jpg);
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/marketing/marketing.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/marketing/marketing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.l-dos {
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/gameStore/gameStore.jpg);
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/gameStore/gameStore.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/gameStore/gameStore.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.l-tres {
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.l-cuatro {
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/graffiti/graffiti.jpg);
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/graffiti/graffiti.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/graffiti/graffiti.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.r-uno {
+  background-color: #FF9100;
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png"); }
+
+.r-dos {
+  background-color: #ff1744;
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png"); }
+
+.r-tres {
+  background-color: #00d4a3;
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png"); }
+
+.r-cuatro {
+  background-color: #5000ff;
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png");
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/fondo.png"); }
+
+.contenido {
+  color: #fafafa;
+  text-align: center;
+  padding: 0 15%;
+  font-weight: 100; }
+  .contenido .tools {
+    font-size: 0.8rem; }
+  .contenido hr {
+    size: 2; }
+
+.ms-right img {
+  opacity: 0.03; }
+
+/* Puntos laterales */
+#multiscroll-nav .multiscroll-tooltip {
+  color: #212529;
+  background-color: #fafafa;
+  width: 80px;
+  text-align: center;
+  border-radius: .15rem; }
+
+#multiscroll-nav span {
+  background-color: #fafafa;
+  border: none; }
+
+#multiscroll-nav li .active span {
+  border: 1px solid #fafafa;
+  background-color: transparent; }
+
+.btn-about {
+  position: absolute;
+  right: 15px;
+  top: 15px; }
+
+.autor {
+  z-index: 1000;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  background-color: rgba(255, 255, 255, 0.43);
+  padding: 3px 12px;
+  border-radius: 0.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 0.9rem; }
+
+/* Responsive body */
+@media (max-width: 768px) {
+  .section-resp {
+    width: 100vw !important;
+    margin-left: -100%; } }
+
+.header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .header hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
+.header-marketing {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(rgba(0, 0, 0, 0.7)), to(black)), url(../img/marketing/marketing.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/marketing/marketing.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/marketing/marketing.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/marketing/marketing.jpg); }
+
+.header-gameStore {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(rgba(0, 0, 0, 0.7)), to(black)), url(../img/gameStore/gameStore.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/gameStore/gameStore.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/gameStore/gameStore.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/gameStore/gameStore.jpg); }
+
+.header-bancoCibertec {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(rgba(0, 0, 0, 0.7)), to(black)), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bancoCibertec/bancoCibertec.jpg); }
+
+.header-graffiti {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(rgba(0, 0, 0, 0.7)), to(black)), url(../img/graffiti/graffiti.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/graffiti/graffiti.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/graffiti/graffiti.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/graffiti/graffiti.jpg); }
+
+/* Contenido de proyectos */
+.view {
+  padding-bottom: 5rem; }
+  .view .container {
+    padding: 4rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.view-pc {
+  background-color: transparent; }
+  @media (max-width: 768px) {
+    .view-pc .img-fluid {
+      max-width: 170%;
+      height: auto; } }
+  .view-pc .notfound {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem; }
+    .view-pc .notfound div hr {
+      border-top: 1px solid #00ffbf; }
+
+.view-movil {
+  color: #fff;
+  text-align: center;
+  font-weight: 100; }
+  .view-movil .container .texto {
+    padding-left: 12rem; }
+  @media (max-width: 992px) {
+    .view-movil .container img {
+      width: 30%; }
+    .view-movil .container .texto {
+      padding-left: 4rem; } }
+  @media (max-width: 768px) {
+    .view-movil .container {
+      display: block; }
+      .view-movil .container img {
+        width: 50%; }
+      .view-movil .container .texto {
+        padding-left: 0;
+        padding-top: 4rem; } }
+
+.view-colors {
+  background-color: #eeeff1; }
+  @media (max-width: 768px) {
+    .view-colors .container {
+      display: block; }
+      .view-colors .container .texto {
+        padding-left: 0;
+        padding-top: 4rem; }
+      .view-colors .container .fila {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+      .view-colors .container .tipografia {
+        display: -ms-grid;
+        display: grid;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .view-colors .container .tipografia div:nth-child(1) {
+          text-align: center; } }
+  .view-colors .fila {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .view-colors .fila div {
+      width: 120px;
+      height: 160px;
+      margin: 1rem;
+      border-radius: 0.25rem; }
+      .view-colors .fila div p {
+        font-size: 0.8rem;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.452);
+        color: white;
+        border-radius: 0.25rem 0.25rem 0 0;
+        letter-spacing: 2px; }
+  .view-colors .colors_mkt .fila:nth-child(1) div:nth-child(1) {
+    background-color: #ffa500; }
+  .view-colors .colors_mkt .fila:nth-child(1) div:nth-child(2) {
+    background-color: #000000; }
+  .view-colors .colors_mkt .fila:nth-child(2) div:nth-child(1) {
+    background-color: #ffffff; }
+  .view-colors .colors_mkt .fila:nth-child(2) div:nth-child(2) {
+    background-color: #c2c2c2; }
+  .view-colors .colors_gms .fila:nth-child(1) div:nth-child(1) {
+    background-color: #ff1744; }
+  .view-colors .colors_gms .fila:nth-child(1) div:nth-child(2) {
+    background-color: #343a40; }
+  .view-colors .colors_gms .fila:nth-child(2) div:nth-child(1) {
+    background-color: #007bff; }
+  .view-colors .colors_gms .fila:nth-child(2) div:nth-child(2) {
+    background-color: #ffffff; }
+  .view-colors .colors_ban .fila:nth-child(1) div:nth-child(1) {
+    background-color: #00d4a3; }
+  .view-colors .colors_ban .fila:nth-child(1) div:nth-child(2) {
+    background-color: #212529; }
+  .view-colors .colors_ban .fila:nth-child(2) div:nth-child(1) {
+    background-color: #ffffff; }
+  .view-colors .colors_ban .fila:nth-child(2) div:nth-child(2) {
+    background-color: #f8f9fa; }
+  .view-colors .tipografia img {
+    width: 200px; }
+  .view-colors .tipografia li {
+    letter-spacing: 1px; }
+    .view-colors .tipografia li b {
+      padding-right: 0.5rem; }
+  .view-colors .tipografia div:nth-child(2) {
+    border-radius: 0.25rem;
+    padding: 5px;
+    background-color: #ffffff; }
+
+.view-prototype .container {
+  display: block; }
+  .view-prototype .container div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 5rem 0; }
+    .view-prototype .container div p {
+      font-weight: 100; }
+
+.footer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2rem;
+  cursor: pointer; }
+  .footer .contenido {
+    padding: 6rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .footer .contenido .next-icon {
+      height: 3rem;
+      position: absolute;
+      right: 0; }
+  .footer .contenido div {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+.footer-marketing {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/gameStore/gameStore.jpg);
+  background-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gameStore/gameStore.jpg);
+  background-image: -o-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gameStore/gameStore.jpg);
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gameStore/gameStore.jpg); }
+
+.footer-gameStore {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: -o-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bancoCibertec/bancoCibertec.jpg);
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bancoCibertec/bancoCibertec.jpg); }
+
+.footer-bancoCibertec {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/graffiti/graffiti.jpg);
+  background-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/graffiti/graffiti.jpg);
+  background-image: -o-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/graffiti/graffiti.jpg);
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/graffiti/graffiti.jpg); }
+
+.footer-graffiti {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/marketing/marketing.jpg);
+  background-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/marketing/marketing.jpg);
+  background-image: -o-linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/marketing/marketing.jpg);
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/marketing/marketing.jpg); }
+
+.nav-link {
+  color: #fff !important; }
+
+.presentacion {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fafafa;
+  background-image: url(../img/yo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .presentacion .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh; }
+    .presentacion .container button {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: #00ffbf;
+      border-radius: 0; }
+    .presentacion .container .true-error {
+      margin-top: 3rem; }
+      .presentacion .container .true-error p:nth-child(1) {
+        font-size: 0.7rem; }
+      .presentacion .container .true-error p:nth-child(2) {
+        font-size: 0.7rem;
+        background: #00000024;
+        border-radius: .50rem; }

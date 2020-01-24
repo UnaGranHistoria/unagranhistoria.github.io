@@ -1,0 +1,53 @@
+@mixin backgroundImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin botonNavbar {
+    border: none;
+
+    &:focus {
+        outline: none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+@mixin header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    hr {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+@mixin footer {
+    margin-top: 2rem;
+    cursor: pointer;
+
+    .contenido {
+        padding: 6rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .next-icon {
+            height: 3rem;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+@mixin contenedor {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

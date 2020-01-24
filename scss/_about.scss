@@ -1,0 +1,37 @@
+.nav-link {
+    color: #fff !important;
+}
+
+.presentacion {
+    min-height: 100vh;
+    width: 100%;
+    background-color: $blanco;
+    background-image: url(../img/yo.png);
+    @include backgroundImg;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+        button {
+            box-shadow: none;
+            background-color: #00ffbf;
+            border-radius: 0;
+        }
+
+        .true-error {
+            margin-top: 3rem; 
+            p:nth-child(1) {
+                font-size: 0.7rem;
+            }
+            p:nth-child(2) {
+                font-size: 0.7rem;
+                background: #00000024;
+                border-radius: .50rem;
+            }
+        }
+    }
+
+}

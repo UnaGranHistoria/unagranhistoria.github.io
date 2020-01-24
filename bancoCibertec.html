@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <!-- Viewport -->
+    <meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <!-- Fuentes -->
+    <!-- Iconos -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xs navbar-dark bg-light mi-nav fixed-top col-bancoCibertec">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-status="x">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <a class="text-uppercase pl-3 text-white">Michael D' Vega</a> -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center pt-5">
+                <li class="nav-item active redirec" id="index">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active redirec" id="marketing">
+                    <a class="nav-link" href="#">MarkeTing<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active redirec" id="gameStore">
+                    <a class="nav-link" href="#">Game Store<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active redirec" id="bancoCibertec">
+                    <a class="nav-link" href="#">Banco Cibertec<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active redirec" id="graffiti">
+                    <a class="nav-link" href="#">Graffiti<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <!-- Nota : animacion css -->
+    <div class="header header-bancoCibertec text-white">
+        <div class="container">
+            <div class="contenido">
+                <p class="tools animated slideInLeft">JQuery | Net Framework | Html | Css</p>
+                <h1 class="display-4 animated slideInRight">Banco Cibertec</h1>
+                <hr>
+                <p class="animated slideInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat velit fuga assumenda voluptate totam ullam, incidunt consequatur. Eos atque incidunt, perspiciatis quis iusto soluta culpa quisquam autem! Quisquam quis eum, obcaecati numquam asperiores perspiciatis nobis illo praesentium. Quaerat rerum nostrum dicta accusamus magni cum animi mollitia error? Fugit natus at maiores! Minus debitis hic aut quam repellat quis. Rem.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acerca de mi -->
+    <!-- Nota : animacion css -->
+    <button type="button" id="about" class="redirec btn btn-line btn-about animated slideInDown">Acerca de mi</button>
+    
+    <!-- Contenido -->
+    <!-- Nota : animacion js -->
+        <!-- Vista pc -->
+        <div class="view view-pc">
+            <div class="container-fluid">
+                <img class="img-fluid" src="img/bancoCibertec/bancoCibertec_pc.png" alt=""  data-aos="fade-left">
+            </div>
+        </div>
+        
+        <!-- Vista movil -->
+        <div class="view view-movil">
+            <div class="container">
+                <img class="img-fluid" src="img/bancoCibertec/bancoCibertec_movil.png" alt=""
+                data-aos="fade-right">
+                <div class="texto" data-aos="fade-left">
+                    <h5>Diseño Web Responsivo</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam cupiditate nulla qui delectus, amet incidunt sit quam officiis, molestiae veniam molestias aperiam impedit, eius mollitia. Consequuntur eveniet quae, quasi earum obcaecati necessitatibus.</p>
+                </div>
+            </div>
+        </div>
+                
+        <!-- Vista colores y typografia -->
+        <div class="view view-colors">
+            <div class="container">
+                <div class="colors colors_ban col-md-6 col-sm-12" data-aos="fade-right">
+                    <div class="fila">
+                        <div class="shadow"><p>#00d4a3</p></div>
+                        <div class="shadow"><p>#212529</p></div>
+                    </div>
+                    
+                    <div class="fila">
+                        <div class="shadow"><p>#ffffff</p></div>
+                        <div class="shadow"><p>#f8f9fa</p></div>
+                    </div>
+                </div>
+                <div class="tipografia col-md-6 col-sm-12" data-aos="fade-left">
+                    <div>
+                        <img src="img/icons/fuente.svg" alt="">
+                    </div>
+                    <div class="shadow">
+                        <li><b>font-family:</b>'Montserrat', sans-serif;</li>
+                        <li><b>font-family:</b>'Flexo', sans-serif;</li>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vista mockup -->
+        <div class="view view-prototype">
+            <div class="container text-center text-white">
+                <div>
+                    <h5 class="text-white col-md-6 col-sm-12" data-aos="fade-left">Elementos UI</h5>
+                </div>
+                <img class="img-fluid" src="img/bancoCibertec/gameStore_items.png" alt=""
+                data-aos="fade-right">
+            </div>
+        </div>
+
+    <!-- Fin contenido -->
+
+    <!-- Footer -->
+    <div class="footer footer-bancoCibertec text-white" data-aos="fade-up" data-next="graffiti">
+        <div class="container">
+            <div class="contenido">
+                <div>
+                    <p class="">Siguiente Proyecto</p>
+                    <h1 class="display-4">Graffiti</h1>
+                </div>
+                <img class="next-icon" src="img/icons/galon-derecho.svg" alt="" data-aos="fade-right">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Js Jquery-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Js Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animación Scroll -->
+    <script src="js/aos.js"></script>
+    <!-- Mis eventos -->
+    <script src="js/app.js"></script>
+
+</body>
+</html>

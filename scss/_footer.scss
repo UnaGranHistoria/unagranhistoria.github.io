@@ -1,0 +1,27 @@
+.footer {
+    @include backgroundImg;
+    @include footer;
+
+    .contenido div {
+        user-select: none;
+    }
+}
+
+.footer-marketing {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), $img_gameStore;
+}
+
+.footer-gameStore {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), $img_bancoCibertec;
+}
+
+.footer-bancoCibertec {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), $img_graffiti;
+}
+
+.footer-graffiti {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), $img_marketing;
+}
+
+
+

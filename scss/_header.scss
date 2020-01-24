@@ -1,0 +1,20 @@
+.header {
+    @include backgroundImg;
+    @include header;
+}
+
+.header-marketing {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), $img_marketing;
+}
+
+.header-gameStore {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), $img_gameStore;
+}
+
+.header-bancoCibertec {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), $img_bancoCibertec;
+}
+
+.header-graffiti {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), $img_graffiti;
+}

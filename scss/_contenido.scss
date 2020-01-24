@@ -1,0 +1,228 @@
+/* Contenido de proyectos */
+.view {
+    padding-bottom: 5rem;
+
+    .container {
+        @include contenedor;     
+    }
+}
+
+.view-pc {
+    background-color: transparent;
+    @media (max-width: 768px) {
+        .img-fluid {
+            max-width: 170%;
+            height: auto;
+        }
+    }
+
+    .notfound {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        text-align: center;
+        font-weight: 100;
+        font-size: 1.5rem;
+        div {
+            // padding: 12rem;
+            hr {
+                border-top: 1px solid rgb(0, 255, 191);
+            }
+        }
+    }
+}
+
+.view-movil {
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    
+    .container .texto {
+        padding-left: 12rem;
+    }
+
+    @media (max-width: 992px) {
+        .container img{
+            width: 30%;        
+        }
+
+        .container .texto {
+            padding-left: 4rem;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .container {
+            display: block;
+    
+            img {
+                width: 50%;
+            }
+    
+            .texto {
+                padding-left: 0;
+                padding-top: 4rem;
+            }
+            
+        }
+    }
+
+}
+
+.view-colors {
+    background-color: #eeeff1;
+    
+    @media (max-width: 768px) {
+        .container {
+            display: block;            
+    
+            .texto {
+                padding-left: 0;
+                padding-top: 4rem;
+            }
+
+            .fila {
+                justify-content: center;
+            }
+
+            .tipografia {
+                display: grid;
+                justify-content: center;
+
+                div:nth-child(1) {
+                    text-align: center;
+                }
+
+                
+            }
+
+            
+        }
+    }
+
+    .fila {
+        display: flex;
+        div {
+            width: 120px;
+            height: 160px;
+            margin: 1rem;
+            border-radius: 0.25rem;
+
+            p {
+                font-size: 0.8rem;
+                padding: 5px;
+                background-color: rgba(0, 0, 0, 0.452);
+                color: white;
+                border-radius: 0.25rem 0.25rem 0 0;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    .colors_mkt {
+        .fila:nth-child(1) {
+            div {
+                &:nth-child(1) {
+                    background-color: $mkt01;
+                }
+                &:nth-child(2) {
+                    background-color: $mkt02;
+                }
+            }
+        }
+
+        .fila:nth-child(2) {
+            div {
+                &:nth-child(1) {
+                    background-color: $mkt03;
+                }
+                &:nth-child(2) {
+                    background-color: $mkt04;
+                }
+            }
+        }
+    }
+
+    .colors_gms {
+        .fila:nth-child(1) {
+            div {
+                &:nth-child(1) {
+                    background-color: $gms01;
+                }
+                &:nth-child(2) {
+                    background-color: $gms02;
+                }
+            }
+        }
+
+        .fila:nth-child(2) {
+            div {
+                &:nth-child(1) {
+                    background-color: $gms03;
+                }
+                &:nth-child(2) {
+                    background-color: $gms04;
+                }
+            }
+        }
+    }
+
+    .colors_ban {
+        .fila:nth-child(1) {
+            div {
+                &:nth-child(1) {
+                    background-color: $ban01;
+                }
+                &:nth-child(2) {
+                    background-color: $ban02;
+                }
+            }
+        }
+
+        .fila:nth-child(2) {
+            div {
+                &:nth-child(1) {
+                    background-color: $ban03;
+                }
+                &:nth-child(2) {
+                    background-color: $ban04;
+                }
+            }
+        }
+    }
+
+    .tipografia {
+
+        img {
+            width: 200px;
+        }
+
+        li {
+            letter-spacing: 1px;
+            
+            b {
+                padding-right: 0.5rem;
+            }
+        }
+
+        div:nth-child(2) {
+            border-radius: 0.25rem;
+            padding: 5px;
+            background-color: #ffffff;
+        }
+
+    }
+}
+
+.view-prototype {
+    .container {
+        display: block;
+        div {
+            display: flex;
+            justify-content: center;
+            padding: 5rem 0;
+            p {
+                font-weight: 100;
+            }
+        }
+    }
+}

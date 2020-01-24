@@ -1,0 +1,6 @@
+.init {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2b2b2b;
+  position: absolute;
+  z-index: 1001; }
